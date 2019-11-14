@@ -1,0 +1,33 @@
+{
+  "name": "react-native-fyber-offerwall",
+  "title": "React Native Fyber Offerwall",
+  "version": "0.0.1",
+  "description": "React Native Bindings for fyber legacy offerwall",
+  "main": "src/fyber_offerwall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-lake/react-native-fyber-offerwall.git",
+    "baseUrl": "https://github.com/jim-lake/react-native-fyber-offerwall"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Jim Lake",
+    "email": "jim@blueskylabs.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "events": ">2.x"
+  },
+  "files": [
+    "src/*",
+    "ios/**/*",
+    "android/**/*",
+    "*.podspec"
+  ]
+}
