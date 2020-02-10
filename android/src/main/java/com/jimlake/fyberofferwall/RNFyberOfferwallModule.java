@@ -47,8 +47,6 @@ public class RNFyberOfferwallModule extends ReactContextBaseJavaModule  {
     @Override
     public void onActivityResult(final Activity activity,final int requestCode,final int resultCode,final Intent data) {
       if (requestCode == OFFERWALL_REQUEST_CODE) {
-        Log.d(TAG,"offerwall result:" + data.toUri(0));
-
         final WritableNativeMap params = new WritableNativeMap();
         params.putInt("resultCode",resultCode);
         sendReactEvent("offerwall_closed",params);

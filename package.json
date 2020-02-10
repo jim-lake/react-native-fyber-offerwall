@@ -1,7 +1,7 @@
 {
   "name": "react-native-fyber-offerwall",
   "title": "React Native Fyber Offerwall",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native Bindings for fyber legacy offerwall",
   "main": "src/fyber_offerwall.js",
   "scripts": {
